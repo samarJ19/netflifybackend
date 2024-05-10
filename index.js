@@ -4,7 +4,7 @@ const cors=require('cors')
 const mainRouter=require("./routes/index")
 const app=express();
 app.use(cors({
-    origin: 'https://vercel.com/samarj19s-projects/payment-frontend/GTWU26QqnvNG8D5J4uy4rHMqZuNX'
+    origin: 'https://vercel.com/samarj19s-projects/fresh-frontend-for-payments-app/FXPAtNxn8gjNxLYsco1MJUb27hat'
   }));
 app.use(express.json())
 app.use('/api/v1',mainRouter);
